@@ -15,7 +15,20 @@ function Home() {
         <NavBar/>
         <Jumbotron/>
 
-        <Card/>
+        <div className="row mx-5 my-5">
+            <div className="col">
+                <Card/>
+            </div>
+            <div className="col">
+                <Card/>
+            </div>
+            <div className="col">
+                <Card/>
+            </div>
+            <div className="col">
+                <Card/>
+            </div>
+        </div>
         <Footer/>
 
 
