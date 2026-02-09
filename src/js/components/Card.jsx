@@ -1,22 +1,17 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
     return (
         <div className="card-global">
             <div className="card">
-                <img src="https://placehold.co/500x350" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title text-center">Card title</h5>
-                        <p className="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum consectetur optio amet explicabo voluptas deleniti maiores nulla dolores eligendi laborum, non, tenetur natus iusto nesciunt ratione nobis eaque enim?</p>
-                        <hr />
-                        <div className="row">
-                          <div className="col-3"></div>
-                          <div className="col-6">
-                            <a href="#" className="btn btn-primary d-flex justify-content-center fw-bold fs-5 text py-2">Find Out More!</a>
-                          </div>
-                          <div className="col-3"></div>
-                        </div>
+                <img src={props.imagen} className="card-img-top" alt="Madrid" />
+                <div className="card-body">
+                    <h5 className="card-title text-center">{props.equipo}</h5>
+                    <p className="card-text text-center"> {props.descripción}</p>
+                    <div className="card-footer bg-white text-center">
+                        <a href="#" className="btn btn-primary">Find Out More!</a>
                     </div>
+                </div>
             </div>
         </div>
     )
