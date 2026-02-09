@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 
 import Footer from "./Footer";
 import Jumbotron from "./Jumbotron";
+import Card from "./Card";
 
 //create your first component
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
         <NavBar/>
         <Jumbotron/>
 
-     
+        <Card/>
         <Footer/>
 
 
