@@ -1,7 +1,7 @@
 function Footer (props) {
     return (
-        <footer class="text-center bg-black text-light" >
-            <p class="p-4 fw-bold">Copyright © Your Website 2026</p>
+        <footer className="p-4 text-center bg-body text-light" data-bs-theme="dark" >
+            <p className="p-4 fw-bold">Copyright © Your Website 2026</p>
         </footer>
     )
 }
